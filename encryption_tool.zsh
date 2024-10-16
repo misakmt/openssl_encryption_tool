@@ -31,6 +31,9 @@ main_menu() {
             echo -e "testing 2 \n"
         ;;
 
+        3) # Encrypt via public/private key
+            echo -e "testing 3 \n"
+
         99) # Exit loop with exit code 0
             echo -e "Exiting! \n"
             exit 0
