@@ -84,7 +84,7 @@ select_algorithm(){
         11) algorithm="aes-128-ctr" ;;
         *) echo "Invalid selection!"; exit 1 ;;
     esac
-    echo ""
+    echo "" #spacing for readability
     # echo "$algorithm"
 }
 
